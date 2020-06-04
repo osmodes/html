@@ -1,0 +1,122 @@
+# html
+work in progree
+#main{
+	display: grid;
+	grid-template-columns: 70% 30%;
+	grid-column-gap: 20px 
+
+
+}
+.next{
+	display: grid;
+	grid-template-columns: 35% 35% 30%;
+	background: black;
+	color: white; 
+}
+body{ 	background-image: url("10.jpg");
+	background-color: blue;
+	color: white;
+	text-orientation: justify;
+}
+.menu{
+
+	text-align: center;
+
+}
+a{
+	text-decoration: none;
+	background: white;
+	border: 5px solid green;
+	margin: 30px;
+
+}
+.topic-subtitle{
+	text-transform: center 2s eas
+}
+
+a:hover{
+	background: white;
+	border: 15px solid yellow;
+	margin: 32px;
+	}
+.timer{
+  text-align: center;
+  font-size: 60px;
+  margin-top: 5px;
+  color: purple;
+}
+.sidebar{
+	background-color: pink;
+	border: 10px thin purple;
+
+}
+.post-title{
+	border: 2px solid white;
+	background: violet;
+}
+.para-1{
+	text-shadow: left 4px 4px;
+	text-decoration-style: initial;
+	text-decoration-color: red
+	text-wrap:break;
+}
+img{
+	filter: grayscale(100%);
+	width: 15%;
+	border: 2px solid orange;
+	margin: 3px;
+	columns: 50% 50%;
+	grid-template-rows: 50% 50%;
+	padding: 10px;
+}
+img:hover{ filter: grayscale(0%);
+	width: 20%;
+	border: 6px solid blue;
+	border-bottom-color: yellow;
+	margin: 6px;
+	
+}
+#image-1{
+	float: right;
+	width: %;
+	height: %;
+}
+.kilo{
+
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+	/*border-radius for drawing circles and angles*/
+	background: black;
+	border: 2px solid red;
+	text-align: center;
+	box-shadow: 5px 5px gray, inset -5px -5px blue;
+	float: right;
+	/* inset for multiple box shadow*/
+
+}
+.san{ 
+	display: circle;
+	width:  200px;
+	height: 100px;
+	border-radius: 5px;
+	color: red;
+	background-color: gray;
+	box-shadow: inset 10px 10px red,inset -10px -10px red;
+	shape-outside: ellipse(10);
+}
+.san:hover{ 
+	display: circle;
+	width:  400px;
+	height: 400px;
+	border-radius: 10px;
+	color: blue;
+	background-color: white;
+	box-shadow: inset 10px 10px red,inset -10px -10px red;
+	shape-outside: ellipse(10);
+}
+
+@keyframes dat{ name
+	transform: translate(20)
+
+}
