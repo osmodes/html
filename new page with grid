@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Roboto+Condensed:400,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="martins.css">
+	<link rel="stylesheet" type="text/css" href="contact.html">
+	<title>Website Styling Challenge</title>
+</head>
+<body>
+<div class="kilo">logo</div>
+	<!-- Display the countdown timer in an element -->
+<section class="timer">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<p  id="demo"></p>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jun 5, 2021 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+</section>
+
+
+	<section class="menu">
+			<a href="file:///c:/Users/Desmond/Desktop/work/gallery.html"target="_blank">menu</a>
+			<a href="">about us</a>
+			<a href="">Gallery</a>
+			<a href="file:///D:/Users/Desmond/Desktop/work/contact.html" target="_blank">Contact Us</a>
+	</section>
+<div id="main">
+	<div class="content">
+		<div class="main-para">
+			<h1 class="subtitle">Welcome to this challenge!</h1>
+			<p>Here is your list of objectives: 
+				<ul>
+					<li>Lay out the Content & Sidebar</li>
+					<li>Create proper margins & spacing around items</li>
+					<li>Import & Use a Custom Font</li>
+					<li>Color Scheme: Blue & Orange (Use however you see fit!)</li>
+					<li>Style text appropriately</li>
+					<li>Change the background color of the sidebar</li>
+					<li>Style image grid however you see fit</li>
+					<li>Create borders around each sidebar items</li>
+					<li>Create grid/flexbox for image and text under 'Subtitle 1'</li>
+					<li>Image grow on hover</li>
+					<li>Link color change on hover</li>
+					<li>Page animation sequence for main items (Content, sidebar)</li>
+				</ul>	
+			</p>
+				<p>Do not feel limited by the objectives! Change or append anything you like. Good Luck!
+				</p>
+		</div>
+
+		<div class="para-1">
+			<h2 class="subtitle">Subtitle 1</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.</p>
+			<img src="c:\Users\Desmond\Dektop\photo\1.jpg" id="image-1">
+			<!---Put your own image directories-->
+		</div>
+
+
+		<div class="para-2">
+			<h2 class="subtitle">Subtitle 2</h2>
+				<p>Commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+			<h2 class="topic-subtitle">Topic 1</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua:
+					<ol>
+						<li>Lorem</li>
+						<li>ipsum</li>
+						<li>dolor</li>
+						<li>sit</li>
+						<li>amet consectetur adipisicing elit!</li>
+					</ol>
+				</p>
+		</div>
+<!---Put your own image directories-->
+		<div class="image-grid">
+			<img src="c:\Users\Desmond\Desktop\photo\2.jpg">
+			<img src="c:\Users\Desmond\Desktop\photo\3.jpg">
+			<img src="c:\Users\Desmond\Desktop\photo\4.jpg">
+			<img src="c:\Users\Desmond\Desktop\photo\5.jpg">
+			<img src="c:\Users\Desmond\Desktop\photo\6.jpg">
+			<img src="c:\Users\Desmond\Desktop\photo\7.jpg">
+			<img src="c:\Users\Desmond\Desktop\photo\8.jpg">
+			<img src="c:\Users\Desmond\Desktop\photo\9.jpg">
+			<img src="c:\Users\Desmond\Desktop\photo\10.jpg">
+		</div>
+	</div>
+<section>
+	<div class="sidebar">
+		<div class="post">
+			<h2 class="post-title">Post 1</h2>
+
+			<p class="post-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+
+			<a href="">Lorem ipDum dolor sit amet.</a>
+		</div>	
+
+		<div class="post">
+			<h2 class="post-title">Post 2</h2>
+
+			<p class="post-text">Eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+			<a href="">Lorem ipsum dolor sit amet.</a>
+		</div>
+
+		<div class="post">
+			<h2 class="post-title">Post 3</h2>
+
+			<p class="post-text">Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris.</p>
+
+			<a href="">Lorem ipsum dolor sit amet.</a>
+		</div>
+
+		<div class="post">
+			<h2 class="post-title">Post 4</h2>
+
+			<p class="post-text">Nisi ut aliquip ex ea commodo
+			consequat, nuis aute irure.</p>
+
+			<a href="">Lorem ipsum dolor sit amet.</a>
+		</div>
+
+		<div class="post">
+			<h2 class="post-title">Post 5</h2>
+
+			<p class="post-text">Dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
+
+			<a href="">Lorem ipsum dolor sit amet.</a>
+		</div>
+
+		<div class="post">
+			<h2 class="post-title">Post 6</h2>
+
+			<p class="post-text">Sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+			<a href="">Lorem ipsum dolor sit amet.</a>
+		</div>		
+		</section>
+</div>
+<div class="next">
+<div class="container">
+  <img src="bandmember.jpg" alt="Avatar" style="width:90px">
+   <p><span>Chris Fox.</span> CEO at Mighty Schools.</p>
+  <p>John Doe saved us from a web disaster.</p>
+</div>
+
+<div class="container">
+  <img src="avatar_g2.jpg" alt="Avatar" style="width:90px">
+  <p><span >Rebecca Flex.</span> CEO at Company.</p>
+  <p>No one is better than John Doe.</p>
+</div>
+<form action="upload.php" method="post" enctype="multipart/form-data">
+ <label>Select image to upload:</label>
+  <input type="file" name="fileToUpload" id="fileToUpload"><br>
+  <input type="submit">
+</form>
+ <form action="/action_page.php">
+  <label for="img">Select image:</label><br>
+  <input type="file" id="img" name="img" accept="image/*"><br>
+  <input type="submit">
+</form> 
+
+ <form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit" align="center">
+</form> 
+</div>
+</body>
+</html>
+
